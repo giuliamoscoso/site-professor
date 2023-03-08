@@ -1,0 +1,33 @@
+.header {
+    align-items: center;
+    border-bottom: 1px solid #e1e4e8;
+    display: flex;
+    font-weight: 500;
+    height: 3.5rem;
+    position: sticky;
+    width: 100%;
+}
+
+.paginas {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.header a {
+    color: #fff;
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 15%;
+}
+
+.icon {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
