@@ -28,7 +28,9 @@ function Profile() {
                 </li>
                 <li>
                     <CgFileDocument className="contato" />
-                    <a href="http://lattes.cnpq.br/2563070123322776">Currículo Lattes</a>
+                    <a id="hover-underline-animation" href="http://lattes.cnpq.br/2563070123322776">
+                        Currículo Lattes
+                    </a>
                 </li>
             </ul>
         </div>

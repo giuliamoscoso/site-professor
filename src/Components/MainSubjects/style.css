@@ -2,6 +2,10 @@
     width: 20vw;
 }
 
+#first {
+    margin-top: 20px;
+}
+
 input {
     -webkit-appearance: none;
     background: #fff;
@@ -15,7 +19,8 @@ input {
 
 input::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: #f9bc60;
+    background: #ff8906;
+    border: solid 3px #dedede;
     border-radius: 50%;
     box-shadow: 0 0 2px 0 #555;
     height: 20px;
