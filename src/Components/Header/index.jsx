@@ -12,7 +12,7 @@ function Header() {
                 <a href="/trabalhos">Trabalhos</a>
                 <a href="/disciplinas">Disciplinas</a>
                 <a href="/eventos">Eventos</a>
-                <a href="/projetos">Proj. de Pesquisa</a>
+                <a href="/projetos">Projetos de Pesquisa</a>
             </div>
         </header>
     );

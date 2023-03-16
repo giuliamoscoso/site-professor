@@ -7,9 +7,11 @@ import "./style.css";
 function Profile() {
     return (
         <div className="profile">
-            <img src="src/assets/abner.png" alt="Foto de perfil do Professor Abner" />
+            <div id="foto">
+                <img src="src/assets/abner.png" alt="Foto de perfil do Professor Abner" />
+            </div>
             <h3>Anderson Abner</h3>
-            <p>Professor Dr. da Universidade Estadual do Rio Grande do Norte.</p>
+            <p>Professor Doutor da Universidade do Estado do Rio Grande do Norte.</p>
             <h3>Onde me encontrar?</h3>
             <ul>
                 <li>

@@ -1,14 +1,22 @@
 .profile {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     margin-left: 20px;
-    margin-top: 20px;
-    width: 20%;
+    max-width: 600px;
+    /* position: sticky; */
+    width: 20vw;
+}
+
+#foto {
+    text-align: center;
+    width: 100%;
 }
 
 img {
     border-radius: 100px;
     height: 200px;
-    margin-bottom: 15px;
-    margin-left: 30px;
+    margin: 5px 0 15px 30px;
     object-fit: cover;
     width: 200px;
 }
@@ -18,8 +26,8 @@ h3 {
 }
 
 p {
+    margin: 10px 0;
     text-align: justify;
-    text-justify: inter-word;
 }
 
 .contato {
@@ -29,7 +37,7 @@ p {
 }
 
 ul {
-    margin: 15px;
+    margin: 0 15px;
     padding: 0px;
 }
 
