@@ -1,0 +1,42 @@
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#div-footer {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 15px 0;
+    width: 20vw;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#animation {
+    display: inline-block;
+    position: relative;
+}
+
+#animation:after {
+    background-color: #fff;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+    width: 100%;
+}
+
+#animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

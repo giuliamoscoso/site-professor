@@ -4,6 +4,7 @@ import Trabalhos from "./Pages/Trabalhos";
 import Disciplinas from "./Pages/Disciplinas";
 import Eventos from "./Pages/Eventos";
 import Projetos from "./Pages/Projetos";
+import Footer from "./Components/Footer";
 
 import "./style.css";
 
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/eventos" element={<Eventos />} />
                 <Route path="/pesquisa" element={<Projetos />} />
             </Routes>
+            <Footer />
         </Router>
     );
 }
