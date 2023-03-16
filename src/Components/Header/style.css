@@ -17,7 +17,6 @@
 }
 
 .header a {
-    color: #fff;
     padding-right: 16px;
     text-decoration: none;
 }
@@ -30,4 +29,12 @@
     color: #fff;
     font-size: 2rem;
     margin-left: 30px;
+}
+
+a {
+    color: #fff;
+}
+
+a.active {
+    color: #f9bc60;
 }

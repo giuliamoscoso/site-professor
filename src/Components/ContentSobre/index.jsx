@@ -1,8 +1,12 @@
+import { useState } from "react";
 import "./style.css";
 
-function Content() {
+function ContentSobre() {
+    // Mudar conteudo do componente de acordo com o botão clicado
+    const [ContentSobre, setContentSobre] = useState("home");
+
     return (
-        <div className="content">
+        <div className="ContentSobre">
             <h3>Sobre mim</h3>
             <p>
                 Doutorado em Engenharia da Computação pela Universidade Federal do Rio Grande do Norte UFRN, Natal RN Brasil (2012), Mestrado em Engenharia Elétrica pela
@@ -38,4 +42,4 @@ function Content() {
     );
 }
 
-export default Content;
+export default ContentSobre;

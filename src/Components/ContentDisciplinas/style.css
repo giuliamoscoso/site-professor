@@ -1,0 +1,54 @@
+.ContentDisciplinas {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 30px;
+    width: 80vw;
+}
+
+.imgDisciplina {
+    width: 12rem;
+}
+
+.card {
+    background-color: #f9bc60;
+    border-radius: 10px;
+    color: #000;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 14rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card:hover {
+    background-color: #f9bc60;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: 20px;
+    padding: 20px;
+    transform: translate(0, -5px);
+    transition: all 0.2s ease-in-out;
+}
+
+.infoCard {
+    align-items: center;
+    border-right: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+    padding-right: 20px;
+}
+
+.contentCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.tituloCard {
+    font-size: 1.35rem;
+    font-weight: bold;
+}

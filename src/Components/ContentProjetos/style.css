@@ -1,0 +1,20 @@
+.ContentProjetos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 30px;
+    width: 80vw;
+}
+
+.infos {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.infos > span {
+    margin-right: 50px;
+}

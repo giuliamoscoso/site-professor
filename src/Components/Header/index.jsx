@@ -1,4 +1,5 @@
 import { FaRobot } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 function Header() {
@@ -8,11 +9,21 @@ function Header() {
                 <FaRobot className="icon" />
             </div>
             <div className="paginas">
-                <a href="/">Sobre</a>
-                <a href="/trabalhos">Trabalhos</a>
-                <a href="/disciplinas">Disciplinas</a>
-                <a href="/eventos">Eventos</a>
-                <a href="/projetos">Projetos de Pesquisa</a>
+                <NavLink to="/" activeClassName="select">
+                    Sobre
+                </NavLink>
+                <NavLink to="/trabalhos" activeClassName="select">
+                    Trabalhos
+                </NavLink>
+                <NavLink to="/disciplinas" activeClassName="select">
+                    Disciplinas
+                </NavLink>
+                <NavLink to="/eventos" activeClassName="select">
+                    Eventos
+                </NavLink>
+                <NavLink to="/pesquisa" activeClassName="select">
+                    Projetos de Pesquisa
+                </NavLink>
             </div>
         </header>
     );

@@ -1,21 +1,23 @@
-import Content from "./Components/Content";
-import Header from "./Components/Header";
-import MainSubjects from "./Components/MainSubjects";
-import Profile from "./Components/Profile";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sobre from "./Pages/Sobre";
+import Trabalhos from "./Pages/Trabalhos";
+import Disciplinas from "./Pages/Disciplinas";
+import Eventos from "./Pages/Eventos";
+import Projetos from "./Pages/Projetos";
+
 import "./style.css";
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <div id="wrapper">
-                <div>
-                    <Profile />
-                </div>
-                <Content />
-                <MainSubjects />
-            </div>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Sobre />} />
+                <Route path="/trabalhos" element={<Trabalhos />} />
+                <Route path="/disciplinas" element={<Disciplinas />} />
+                <Route path="/eventos" element={<Eventos />} />
+                <Route path="/pesquisa" element={<Projetos />} />
+            </Routes>
+        </Router>
     );
 }
 
